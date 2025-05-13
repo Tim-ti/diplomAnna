@@ -9,8 +9,12 @@ export default defineConfig({
   },
   build: {
     outDir: 'build',
-    sourcemap: false,
-    minify: true,
-    chunkSizeWarningLimit: 1600,
-  }
+    assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    }
+  },
+  publicDir: 'public',
 }); 

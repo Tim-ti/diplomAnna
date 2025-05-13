@@ -3,10 +3,10 @@ export const products = {
     id: 1,
     title: 'Духовой шкаф электрический',
     description: 'Объем 60 л • 6 режимов • Конвекция',
-    image: '/src/assets/Духовой шкаф.jpg',
-    video: '/src/assets/Духовой шкаф.mp4',
+    image: '/images/Духовой шкаф.jpg',
+    video: '/images/Духовой шкаф.mp4',
     additionalImages: [
-      '/src/assets/Духовой шкаф,1.jpg'
+      '/images/Духовой шкаф,1.jpg'
     ],
     specs: [
       'Объем: 60 литров',
@@ -22,8 +22,8 @@ export const products = {
     id: 2,
     title: 'Посудомоечная машина',
     description: 'Полноразмерная • 14 комплектов • А++',
-    image: '/src/assets/Посудомоечная машина.jpg',
-    video: '/src/assets/посудомойка.mp4',
+    image: '/images/Посудомоечная машина.jpg',
+    video: '/images/посудомойка.mp4',
     specs: [
       'Вместимость: 14 комплектов',
       'Полноразмерная',
@@ -38,10 +38,10 @@ export const products = {
     id: 3,
     title: 'Варочная панель',
     description: '4 конфорки • Сенсорное управление',
-    image: '/src/assets/Варочная панель.jpg',
-    video: '/src/assets/Варочные Панели.mp4',
+    image: '/images/Варочная панель.jpg',
+    video: '/images/Варочные Панели.mp4',
     additionalImages: [
-      '/src/assets/Ваорочные панели.jpg'
+      '/images/Ваорочные панели.jpg'
     ],
     specs: [
       '4 конфорки',
@@ -56,10 +56,10 @@ export const products = {
     id: 4,
     title: 'Вытяжка кухонная',
     description: 'Настенная • 60 см • Сенсорное управление',
-    image: '/src/assets/Вытяжка.JPG',
-    video: '/src/assets/Вытяжки.mp4',
+    image: '/images/Вытяжка.JPG',
+    video: '/images/Вытяжки.mp4',
     additionalImages: [
-      '/src/assets/Вытяжки (1).jpg'
+      '/images/Вытяжки (1).jpg'
     ],
     specs: [
       'Ширина: 60 см',
@@ -74,8 +74,8 @@ export const products = {
     id: 5,
     title: 'Стиральная машина',
     description: 'Загрузка 8 кг • Инверторный двигатель • А+++',
-    image: '/src/assets/Стиральная машина.jpg',
-    video: '/src/assets/Стиральная машина.mp4',
+    image: '/images/Стиральная машина.jpg',
+    video: '/images/Стиральная машина.mp4',
     specs: [
       'Максимальная загрузка: 8 кг',
       'Класс энергопотребления: А+++',

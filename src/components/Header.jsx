@@ -137,7 +137,7 @@ function Header() {
               display: { xs: 'none', sm: 'block' },
               cursor: 'pointer'
             }}
-            onClick={() => navigate('/')}
+            onClick={() => navigate('/dashboard')}
           >
             Галерея бытовой техники
           </Typography>

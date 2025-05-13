@@ -15,6 +15,7 @@ import {
 } from '@mui/icons-material';
 import { products } from '../data/products';
 import { useFavorites } from '../context/FavoritesContext';
+import VideoPlayer from '../components/VideoPlayer';
 
 function ProductPage() {
   const { id } = useParams();
@@ -52,19 +53,10 @@ function ProductPage() {
         <Grid item xs={12} md={7}>
           <Paper elevation={3} sx={{ p: 2 }}>
             {selectedMedia === 'video' && hasVideo ? (
-              <Box
-                component="video"
-                controls
-                sx={{
-                  width: '100%',
-                  height: 'auto',
-                  maxHeight: '500px',
-                  objectFit: 'contain',
-                }}
-              >
-                <source src={product.video} type="video/mp4" />
-                Your browser does not support the video tag.
-              </Box>
+              <VideoPlayer
+                src={product.video}
+                fallbackImage={product.image}
+              />
             ) : selectedMedia.startsWith('additional-') ? (
               <Box
                 component="img"
