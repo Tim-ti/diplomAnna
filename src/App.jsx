@@ -2,6 +2,7 @@ import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import ProductPage from './pages/ProductPage';
 import FavoritesPage from './pages/FavoritesPage';
@@ -32,6 +33,7 @@ const router = createBrowserRouter(
           <div className="App">
             <Header />
             <Home />
+            <Footer />
           </div>
         </PrivateRoute>
       ),
@@ -43,6 +45,7 @@ const router = createBrowserRouter(
           <div className="App">
             <Header />
             <ProductPage />
+            <Footer />
           </div>
         </PrivateRoute>
       ),
@@ -54,6 +57,7 @@ const router = createBrowserRouter(
           <div className="App">
             <Header />
             <FavoritesPage />
+            <Footer />
           </div>
         </PrivateRoute>
       ),
@@ -63,6 +67,7 @@ const router = createBrowserRouter(
       element: (
         <div className="App">
           <Login />
+          <Footer />
         </div>
       ),
     },
@@ -71,6 +76,7 @@ const router = createBrowserRouter(
       element: (
         <div className="App">
           <Register />
+          <Footer />
         </div>
       ),
     },
