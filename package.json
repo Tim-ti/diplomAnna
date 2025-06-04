@@ -8,13 +8,16 @@
     "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
     "@mui/icons-material": "^5.15.10",
     "@mui/material": "^5.15.10",
+    "@react-three/drei": "^9.102.6",
+    "@react-three/fiber": "^8.15.19",
     "firebase": "^10.14.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.1",
     "react-scripts": "5.0.1",
     "react-slick": "^0.30.2",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "three": "^0.162.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
