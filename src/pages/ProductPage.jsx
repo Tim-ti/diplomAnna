@@ -60,9 +60,8 @@ function ProductPage() {
   );
   const hasModel = product.models ? product.models[cooktopType] : (product.model && product.model.trim() !== '');
   const modelUrl = product.models ? product.models[cooktopType] : product.model;
-  const specs = product.specs ? 
-    (typeof product.specs === 'object' ? product.specs[cooktopType] : product.specs) : 
-    [];
+  const specs = Array.isArray(product.specs) ? product.specs : 
+    (typeof product.specs === 'object' ? product.specs[cooktopType] : []);
   const imageUrl = product.images ? product.images[cooktopType] : product.image;
   const additionalImageUrl = product.additionalImages ? 
     (typeof product.additionalImages === 'object' ? product.additionalImages[cooktopType] : product.additionalImages[0]) : 
